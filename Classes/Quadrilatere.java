@@ -17,10 +17,10 @@ public class Quadrilatere extends Forme {
 	public void deplacer(int arg0, int arg1) {
 		this.getPoint1().setAbscisse(this.getPoint1().getAbscisse()+arg0);
 		this.getPoint2().setAbscisse(this.getPoint2().getAbscisse()+arg0);
-
-		
 		this.getPoint1().setOrdonnee(this.getPoint1().getOrdonnee()+arg1);
 		this.getPoint2().setOrdonnee(this.getPoint2().getOrdonnee()+arg1);
+
+		
 		
 	}
 

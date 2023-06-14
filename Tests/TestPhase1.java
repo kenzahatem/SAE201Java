@@ -1,7 +1,6 @@
 import org.junit.Before;
-import ardoise.Ardoise;
-import ardoise.PointPlan;
-public class TestFormes {
+import ardoise.*;
+public class TestPhase1 {
 	@Before
 	public static void main(String  []args) throws InterruptedException {
 		Ardoise ardoise = new Ardoise();
